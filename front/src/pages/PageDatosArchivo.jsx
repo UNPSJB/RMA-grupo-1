@@ -73,9 +73,9 @@ const DatosArchivo = () => {
           <input
             type="number"
             id="sensorId"
-            className="form-input"
+            className="input-text max-w-40 form-input"
             value={id || ""}
-            placeholder="Ingresar ID del nodo (opcional)"
+            placeholder="ID nodo"
             onChange={(e) => setId(parseInt(e.target.value) || null)}
           />
         </div>
